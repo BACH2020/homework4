@@ -1,0 +1,108 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+#container {
+    width:1000px;
+    margin:auto;
+}
+
+body{
+    background-image: url(images/bgcover.jpg);
+    background-size: cover;
+}
+
+.social-media-icons{
+    display:flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-media-icons img{
+    width: 50px;
+    height: 30px; 
+}
+button{
+    border: none;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#menu ul li{
+    width: 1000px;
+    height:15px;
+    background:rgb(188,77, 80);
+    border-spacing: 15px;
+    padding: 1px;
+}
+#menu ul li a{
+    text-transform: uppercase;
+    color:white;
+    text-align:center;
+    width: 240px;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+} 
+#top-images{
+    width: 875px;
+    height: 250px;
+    position: relative;
+    margin: auto
+}
+
+.top-image{
+    width: 875px;
+    height: 250px;
+    position: absolute;
+    left: 5%;    
+    bottom: 5%;
+}
+.grid{
+    width: 875px;
+    height: 250px;
+    position: absolute;
+    border: 10px solid white;
+    left: 5%;
+    bottom: 5%;
+}
+.peralta{
+    position: relative;
+    width:300px;
+    left:8%;
+    top: 8%;
+}
+#articles div{
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    background-color:white;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    
+}
+#skaters div{
+    height:250px ;
+    width: 300px;
+    background:black;
+    color:white;
+    float:left;
+    margin:5px;
+
+}
+#skaters div:nth-child(3){
+    width:610px;
+    background-repeat: no-repeat;
+    background-image:url(images/sk8er-1.png);
+}
+#container div:nth-child(4) {
+    height:510px;
+    margin-top:-255px;
+   
+}
